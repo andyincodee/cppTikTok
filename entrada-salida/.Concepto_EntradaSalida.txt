@@ -1,0 +1,13 @@
+ENTRADA Y SALIDA DE DATOS
+
+La entrada y salida de datos en C++ es simple (al menos para los casos más comunes). Con esto hago una comparación entre C++ y Java, pues leer una entrada del usuario por teclado en C++ es bastante simple mientras que en Java implica una serie de conceptos adicionales que la hacen un tanto más complicada. Por suerte para nosotros en esta sección veremos cómo leer por teclado en C++, en otras palabras, asignar a una variable el valor que el usuario escriba por el teclado. Adicional a esto veremos también cómo mostrar texto por pantalla en C++, es decir, salida de datos.
+
+Vamos a comenzar primero con aprender a mostrar texto por pantalla en C++. Este orden se debe a que cuando queremos pedirle algún dato al usuario primero debemos hacerle saber lo que queremos que ingrese y para hacérselo saber debemos mostrarle un mensaje con las indicaciones, por tal motivo es importante primero saber mostrar texto en pantalla en C++ y luego a leer texto por teclado en C++.
+
+• Salida de texto por pantalla en C++
+Mostrar texto por pantalla en C++ es muy simple. Para imprimir una salida de texto en C++ se hace uso de la instrucción cout, junto con <<. Es importante tener en cuenta que la instrucción cout siempre va acompañada de << para controlar el flujo de datos que sale. No te fijes mucho en ellos, solo ten siempre presente que cout viene acompañado de << para tener cout << como resultado.
+
+• Entrada o lectura de datos en C++
+Tal como mencioné hace un momento, la lectura de datos en C++ es bastante simple. Leer datos por teclado en C++ se hace usando el comando cin >> es importante notar el uso de los dos signos >> que son usados para controlar el flujo de datos. No te preocupes mucho por ellos, solo ten en cuenta que cada vez que vaya a usar la instrucción cin debes agregarle >> para quedar con un cin>>. Una manera muy sencilla de recordar esta instrucción es que in significa entrar y como estamos programando en C++ le añadimos la letra C al comienzo quedando así cin>> (sin olvidar los >>).
+
+Veamos unos ejemplos simples para leer datos en C++. Recuerda como dije más arriba que lo ideal para leer datos es indicarle al usuario qué es lo que esperamos que ingrese por lo que en estos ejemplos usaremos también lo recién aprendido (mostrar texto por pantalla).

@@ -1,0 +1,33 @@
+OPERADORES Y EXPRESIONES
+
+Resolución de ámbito global						->	:: a
+Resolución de ámbito de clase o de espacio de nombres		->	a:: b
+Suscripción									->	a[b]
+Selección de miembro							->	a.b o a->b
+Tamaño									->	sizeof a o sizeof (tipo)
+No lógico									->	! a
+Complemento de uno							->	~ a
+Menos unitario								->	- a
+Más unitario								->	+ a
+Desreferenciar								->	* a
+Conversión de tipo							->	( tipo ) a
+Multiplicar									->	a * b
+Dividir									->	a / b
+Módulo									->	a % b
+Añadir									->	a + b
+Sustraer									->	a - b
+Desplazamiento a la izquierda						->	a << b
+Desplazamiento a la derecha						->	a >> b
+Menor que									->	a < b
+Mayor que									->	a > b
+Menor o igual que								->	a <= b
+Mayor o igual que								->	a >= b
+Igual										->	a == b
+No igual									->	a != b
+AND a nivel de bit							->	a & b
+OR a nivel de bit								->	a | b
+OR exclusivo a nivel de bit						->	a ^ b
+AND lógico									->	a && b
+OR lógico									->	a || b
+Expresiones de asignación						->	a = b, a+=b, a-=b, etc.
+Operadores de prefijo y postfijo					->	++a, a++, --a y a--
