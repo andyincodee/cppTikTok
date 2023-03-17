@@ -3,28 +3,28 @@ y columnas, posteriormente mostrar la matriz en pantalla*/
 #include <iostream>
 using namespace std;
 int main(){
-    int numero[100][100], filas, columnas;
-
-    //pedir al usuario la cantidad de filas y columnas
-    cout << "Ingrese la cantidad de filas: ";
+    int matriz[100][100];
+    int filas, columnas;
+    
+    cout << "Ingrese el número de filas: ";
     cin >> filas;
-    cout << "Ingrese la cantidad de columnas: ";
+    cout << "Ingrese el número de columnas: ";
     cin >> columnas;
 
-    //almacenar elementos en la matriz
+    //Ingresamos datos a la matriz
     for(int i = 0; i < filas; i++){
         for(int j = 0; j < columnas; j++){
-            cout << "Digite un numero en: [" << i << "]" << "[" << j << "]: ";
-            cin >> numero[i][j];
+            cout << "Ingrese un numero [" << i << "][" << j << "]: ";
+            cin >> matriz[i][j];
         }
     }
 
-    //mostrar la matriz
+    //Mostramos la matriz
     for(int i = 0; i < filas; i++){
         for(int j = 0; j < columnas; j++){
-            cout << numero[i][j] << "   ";
+            cout << matriz[i][j] << "   ";
         }
-        cout << endl;
+        cout << endl;   //ENDL para que de un salto de línea la matriz
     }
 
     return 0;
