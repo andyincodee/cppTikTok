@@ -3,70 +3,42 @@ Una matriz es simetrica si es cuadrada y si es igual a su matriz transpuesta*/
 #include <iostream>
 using namespace std;
 int main(){
-    int matriz[100][100];
-    int filas, columnas;
-    char bandera = 'F';
+    int matriz[100][100], filas, columnas;
+    char bandera = 'V';
 
-    cout << "Ingrese la cantidad de filas: ";
+    cout << "Ingrese la cantidad de filas que tendra su matriz: ";
     cin >> filas;
-    cout << "Ingrese la cantidad de columnas: ";
+    cout << "Ingrese la cantidad de columnas que tendra su matriz: ";
     cin >> columnas;
 
-    //El usuario ingresa los valores a la matriz
-    if(filas == columnas){
+    if(filas == columnas){  //Si es cuadrada se realiza el ejercicio
+        //ingresar numeros en la matriz
         for(int i = 0; i < filas; i++){
-           for(int j = 0; j < columnas; j++){
-                cout << "Ingrese un numero [" << i << "] [" << j << "]: ";
+            for(int j = 0; j < columnas;  j++){
+                cout << "Ingrese un # en ["<<i<<"]["<<j<<"]: ";
                 cin >> matriz[i][j];
             }
         }
-    }else{
-        cout << "---------------------" << endl;
-        cout << "Error. No es Cuadrada" << endl;
-        cout << "---------------------" << endl;
-        return 0;
-    }
-    
-    //Imprimimos la matriz: normal y simétrica
-    cout << "-------------" << endl;
-    cout << "Matriz Normal" << endl;
-    cout << "-------------" << endl;
-    for(int i = 0; i < filas; i++){
-        for(int j = 0; j < columnas; j++){
-            cout << matriz[i][j] << "   ";
-        }
-        cout << endl;
-    }
-    cout << "------------------" << endl;
-    cout << "Matriz Transpuesta" << endl;
-    cout << "------------------" << endl;
-    for(int i = 0; i < filas; i++){
-        for(int j = 0; j < columnas; j++){
-            cout << matriz[j][i] << "   ";
-        }
-        cout << endl;
-    }
 
-    //Determinamos si es simetrica o no con banderas
-    for(int i = 0; i < filas; i++){
-        for(int j = 0; j < columnas; j++){
-            if(matriz[i][j] == matriz[j][i]){
-                bandera = 'V';
-            }else{              //En caso de que sus indices no sean iguales es necesario poner un SI NO
-                bandera = 'F';  //y cambiar de estado verdadero a falso en la bandera
-                break;          //finalizamos la ejecución del bucle o instrucción para que no siga
+        //comprobamos si es simetrica
+        for(int i = 0; i < filas; i++){
+            for(int j = 0; j < columnas;  j++){
+                if(matriz[i][j] != matriz[j][i]){
+                    bandera = 'F';
+                    break;  //sale del ciclo enseguida que su valor sea Falso
+                }
             }
         }
-    }
-    
-    if(bandera == 'V'){
-        cout << "------------------" << endl;
-        cout << "Exito. Es Simetrica" << endl;
-        cout << "------------------" << endl;
-    }else{
-        cout << "------------------" << endl;
-        cout << "Error. No es Simetrica" << endl;
-        cout << "------------------" << endl;
+
+        //anunciamos nuestro resultado
+        if(bandera == 'V'){
+            cout << "Exito! La matriz es simetrica";
+        }else{
+            cout << "Chale! No es simetrica :c";
+        }
+
+    } else {    //Sino, se indica que no es simetrica
+        cout << "No es una matriz cuadrada, por lo tanto no es SIMETRICA.";
     }
 
     return 0;
