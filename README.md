@@ -1,5 +1,5 @@
-<h1 align="center">Hola 👋, Soy andyincode</h1>
-<h3 align="center">Estudiante en Ingeniería de Software desde Ecuador</h3>
+<h1 align="center">Hola 👋, Soy Andy Ortiz</h1>
+<h3 align="center">Estudiante en Ingeniería de Software en Ecuador</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=andyincodee&label=Profile%20views&color=0e75b6&style=flat" alt="andyincodee" /> </p>
 
@@ -8,8 +8,6 @@
 - ⚖  Actualmente estoy aprendiendo **HTML y CSS**
 
 - 👨‍💻 Todos mis proyectos están disponibles en [https://github.com/andyincodee](https://github.com/andyincodee)
-
-- 📝 Regularmente escribo artículos en [https://www.facebook.com/andyincodee](https://www.facebook.com/andyincodee)
 
 - 💬 Pregúntame sobre **C++**
 
