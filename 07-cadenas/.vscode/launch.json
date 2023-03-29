@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/cursos-programación/cppTikTok/cadenas",
-      "program": "c:/cursos-programación/cppTikTok/cadenas/build/Debug/outDebug",
+      "cwd": "c:/cursos-programación/cppTikTok/07-cadenas",
+      "program": "c:/cursos-programación/cppTikTok/07-cadenas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
