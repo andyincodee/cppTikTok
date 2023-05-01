@@ -1,9 +1,10 @@
+// Método de Inserción - Insertion Sort
 #include <iostream>
 using namespace std;
 
 int main() {
     int n;
-    cout << "Ingrese el tamaño del arreglo: ";
+    cout << "Ingrese el tamano del arreglo: ";
     cin >> n;
 
     int arr[n];
