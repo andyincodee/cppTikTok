@@ -5,20 +5,18 @@
 
 - 📷 Trabajo de fotógrafo/videógrafo en [Chakana Ecuador](https://www.instagram.com/chakana_ecuador/)
 
-- ⚖  Actualmente estoy aprendiendo **HTML y CSS**
+- 👨‍💻 Todos mis repositorios están disponibles en [https://github.com/soyandyortiz](https://github.com/soyandyortiz)
 
-- 👨‍💻 Todos mis proyectos están disponibles en [https://github.com/andyincodee](https://github.com/andyincodee)
-
-- 💬 Pregúntame sobre **C++**
+- 💬 Pregúntame sobre **C++ y SQL**
 
 - 📫 Contáctame **andyortiz.ec@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/andyincode" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="andyincode" height="30" width="40" /></a>
-<a href="https://fb.com/andyincodee" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="andyincodee" height="30" width="40" /></a>
-<a href="https://instagram.com/andyincode" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="andyincode" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/andyincode" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="andyincode" height="30" width="40" /></a>
+<a href="https://fb.com/soyandyortiz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="soyandyortiz" height="30" width="40" /></a>
+<a href="https://instagram.com/soyandyortiz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="soyandyortiz" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/soyandyortiz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="soyandyortiz" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
